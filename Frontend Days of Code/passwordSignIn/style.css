@@ -108,5 +108,9 @@
     border: none;
 }
 
+#to-see img {
+    filter: invert(14%) sepia(24%) saturate(2502%) hue-rotate(183deg) brightness(98%) contrast(95%);
+}
+
 
 
