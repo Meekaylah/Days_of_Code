@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(18, 42, 78, .04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: inline-flex;
+    padding: 5.3125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    background: #fff;
+}
+
+.section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #132B50;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.account .type {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #132B50;
+}
+
+.account .name {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #132B50;
+}
+
+.password-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.password-section h5 {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.pass-input {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+#pass {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.pass-contain {
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+    border: 1px solid #132B50;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+#to-see {
+    width: 1.6875rem;
+    height: 1.6875rem;
+    background: transparent;
+    border: none;
+}
+
+
+
