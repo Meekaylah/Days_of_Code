@@ -10,7 +10,7 @@
 }
 
 .background {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: rgb(18, 42, 78, .04);
     display: flex;
@@ -25,6 +25,8 @@
     align-items: flex-start;
     gap: 2.5rem;
     background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 44px 104px 0px rgba(19, 43, 80, 0.10);
 }
 
 .section{
@@ -91,6 +93,10 @@
     width: 100%;
 }
 
+#pass::placeholder {
+    color: #000;
+}
+
 .pass-contain {
     display: flex;
     flex-direction: row;
@@ -98,7 +104,7 @@
     border: 1px solid #132B50;
     border-radius: 0.5rem;
     padding: 1rem;
-    width: 100%;
+    width: 23.1875rem;
 }
 
 #to-see {
@@ -112,5 +118,88 @@
     filter: invert(14%) sepia(24%) saturate(2502%) hue-rotate(183deg) brightness(98%) contrast(95%);
 }
 
+.stay-continue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
 
+/* Code for toggle-switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3.75rem;
+    height: 2.25rem;
+}
 
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #132B50;
+    border-radius: 17.5px;
+    transition: .4s;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 22px;
+    left: 7px;
+    bottom: 6.5px;
+    background-color: #132B50;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.switch input:checked + .slider {
+    background-color: #919aab51;
+}
+
+.switch input:checked + .slider::before {
+    transform: translateX(22px);
+}
+
+.toggle-on {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.toggle-on span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.continue {
+    padding: 1rem;
+    background-color: #132B50;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.link input {
+    color: #132B50;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sign In</title>
+    <title>Enter your password</title>
 </head>
 <body>
     <div class="background">
@@ -23,13 +23,27 @@
                     <div class="pass-input">
                         <div class="pass-contain">
                             <img src="images/lock.svg" alt="Lock">
-                            <input type="password" name="profile" id="pass">
+                            <input type="password" name="profile" id="pass" placeholder="**************">
                         </div>
                         <button type="button" id="to-see"><img src="images/eye-outline.svg" alt="See Password"></button>
                     </div>
                 </div>
+                <div class="stay-continue">
+                    <div class="toggle-on">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <span>Stay signed in</span>
+                    </div>
+                    <div class="continue">
+                        Continue
+                    </div>
+                </div>
             </div>
-            <div class="link"></div>
+            <div class="link">
+                <input type="reset" value="Reset Password">
+            </div>
         </div>
     </div>
 </body>
