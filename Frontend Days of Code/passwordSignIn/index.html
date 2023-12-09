@@ -23,9 +23,9 @@
                     <div class="pass-input">
                         <div class="pass-contain">
                             <img src="images/lock.svg" alt="Lock">
-                            <input type="password" name="profile" id="pass" placeholder="**************">
+                            <input type="password" name="profile" id="pass" placeholder="Enter Password">
                         </div>
-                        <button type="button" id="to-see"><img src="images/eye-outline.svg" alt="See Password"></button>
+                        <button type="button" id="to-see" onclick="seePass()"><img src="images/eye-outline.svg" alt="See Password"></button>
                     </div>
                 </div>
                 <div class="stay-continue">
@@ -36,9 +36,9 @@
                         </label>
                         <span>Stay signed in</span>
                     </div>
-                    <div class="continue">
+                    <button class="continue">
                         Continue
-                    </div>
+                    </button>
                 </div>
             </div>
             <div class="link">
@@ -46,5 +46,17 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function seePass() {
+            var pass = document.getElementById("pass");
+            if (pass.type === "password") {
+                pass.type = "text";
+            }
+            else {
+                pass.type = "password"
+            }
+        }
+    </script>
 </body>
 </html>

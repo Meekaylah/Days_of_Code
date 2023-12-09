@@ -93,10 +93,6 @@
     width: 100%;
 }
 
-#pass::placeholder {
-    color: #000;
-}
-
 .pass-contain {
     display: flex;
     flex-direction: row;
@@ -192,6 +188,8 @@
     border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
+    border: none;
 }
 
 .link input {
