@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@500&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.background {
+    margin: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.375rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#title {
+    font-family: Merriweather;
+    font-size: 2rem;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar {
+    border: 1px solid #BFC8E5;
+    border-radius: 0.25rem;
+}
+
+.searchbar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 19.4375rem;
+}
+
+.searchbar img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#search {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.tags span {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#new {
+    background: #849FFF;
+    color: #fff;
+}
+
+.card {
+    width: 20.4375rem;
+    border-radius: 1rem;
+    background: #FBFCFF;
+    height: 13rem;
+}
+
+.profile {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+#pfp {
+    width: 6.0625rem;
+    height: 6.0625rem;
+    border-radius: 6.0625rem;
+    object-fit: cover;
+    background: lightgray -61.055px -68.636px / 207.216% 259.021% no-repeat;
+}
+
