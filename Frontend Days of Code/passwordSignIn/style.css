@@ -108,6 +108,7 @@
     height: 1.6875rem;
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 
 #to-see img {

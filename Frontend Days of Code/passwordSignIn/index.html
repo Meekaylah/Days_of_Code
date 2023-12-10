@@ -25,7 +25,7 @@
                             <img src="images/lock.svg" alt="Lock">
                             <input type="password" name="profile" id="pass" placeholder="Enter Password">
                         </div>
-                        <button type="button" id="to-see" onclick="seePass()"><img src="images/eye-outline.svg" alt="See Password"></button>
+                        <button type="button" id="to-see" onclick="seePass()"><img src="images/eye-outline.svg" alt="See Password" id="eye"></button>
                     </div>
                 </div>
                 <div class="stay-continue">
@@ -47,16 +47,6 @@
         </div>
     </div>
 
-    <script>
-        function seePass() {
-            var pass = document.getElementById("pass");
-            if (pass.type === "password") {
-                pass.type = "text";
-            }
-            else {
-                pass.type = "password"
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
