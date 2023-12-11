@@ -88,6 +88,33 @@
     height: 6.0625rem;
     border-radius: 6.0625rem;
     object-fit: cover;
-    background: lightgray -61.055px -68.636px / 207.216% 259.021% no-repeat;
 }
 
+@media only screen and (max-width: 1060px) {
+    .header{
+        align-items: center;
+    }
+    .filters {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+    .tags span {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 654px) {
+    .background {
+        margin-top: 3.25rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    #edit, #mod {
+        display: none;
+    }
+}
