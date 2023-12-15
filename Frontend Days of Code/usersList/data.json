@@ -1,0 +1,22 @@
+[
+    {
+        "user": "Lelah Nichols",
+        "avatar": "./image/lelah.png",
+        "state": "Troy, MI",
+        "tags": [
+            "clothes",
+            "stem"
+        ]
+    },
+    {
+        "user": "Jesus Weiss",
+        "avatar": "./image/jesus.png",
+        "state": "Fort Worth, TX",
+        "tags": [
+            "headset",
+            "gadget",
+            "speed",
+            "winter"
+        ]
+    }
+]

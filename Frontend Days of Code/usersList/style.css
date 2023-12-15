@@ -89,10 +89,13 @@
 }
 
 #pfp {
+    background: url(./images/jesus.png);
     width: 6.0625rem;
     height: 6.0625rem;
-    border-radius: 6.0625rem;
-    object-fit: cover;
+    border-radius: 50%;
+    background-size: cover;
+    background-position-y: 50%;
+    
 }
 
 @media only screen and (max-width: 1060px) {
