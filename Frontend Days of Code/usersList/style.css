@@ -69,6 +69,11 @@
     color: #fff;
 }
 
+.list {
+    display: flex;
+    gap: 1rem;
+}
+
 .card {
     width: 20.4375rem;
     border-radius: 1rem;
@@ -116,5 +121,9 @@
 
     #edit, #mod {
         display: none;
+    }
+
+    .list {
+        display: block;
     }
 }
