@@ -72,6 +72,7 @@
 .list {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -111,6 +112,9 @@
 @media only screen and (max-width: 747px) {
     .tags span {
         font-size: 0.75rem;
+    }
+    .list{
+        justify-content: center;
     }
 }
 

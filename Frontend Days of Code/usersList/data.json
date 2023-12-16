@@ -1,7 +1,7 @@
 [
     {
         "user": "Lelah Nichols",
-        "avatar": "./image/lelah.png",
+        "avatar": "./images/lelah.png",
         "state": "Troy, MI",
         "tags": [
             "clothes",
@@ -10,7 +10,7 @@
     },
     {
         "user": "Jesus Weiss",
-        "avatar": "./image/jesus.png",
+        "avatar": "./images/jesus.png",
         "state": "Fort Worth, TX",
         "tags": [
             "headset",

@@ -1,4 +1,23 @@
+const card = document.querySelector(".list")
 fetch("./data.json")
     .then(res => res.json()
-    .then(data => console.log(data))
+    .then(data => {
+        data.forEach(post => {
+            card.insertAdjacentHTML("beforeend", 
+                `<div class="card">
+                    <div class="profile">
+                        <div id="pfp" style="background-image: url(${post.avatar});"></div>
+                        <div class="info">
+                            <h3 class="name">${post.user}</h3>
+                            <span class="state">${post.state}</span>
+                            <div class="ptags">
+                                <span>clothes</span>
+                                <span>stem</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            )
+        })
+    })
 )
