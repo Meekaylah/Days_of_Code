@@ -18,5 +18,46 @@
             "speed",
             "winter"
         ]
+    },
+    {
+        "user": "Annie Rice",
+        "avatar": "./images/annie.png",
+        "state": "Austin, TX",
+        "tags": [
+            "road",
+            "mountain",
+            "trip",
+            "earth",
+            "nature"
+        ]
+    },
+    {
+        "user": "Robert Brower",
+        "avatar": "./images/rob.png",
+        "state": "Cincinnati, OH",
+        "tags": [
+            "Maintenance",
+            "gears",
+            "frames",
+            "repair"
+        ]
+    },
+    {
+        "user": "Amy Campbell",
+        "avatar": "./images/amy.png",
+        "state": "Warrior, AL",
+        "tags": [
+            "music",
+            "disks"
+        ]
+    },
+    {
+        "user": "Anthony S. Morin",
+        "avatar": "./images/ant.png",
+        "state": "Lyndhurst, NJ",
+        "tags": [
+            "vintage",
+            "electric"
+        ]
     }
 ]
