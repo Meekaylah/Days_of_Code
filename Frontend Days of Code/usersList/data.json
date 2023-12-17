@@ -1,7 +1,7 @@
 [
     {
         "user": "Lelah Nichols",
-        "avatar": "./images/lelah.png",
+        "avatar": "https://s3-alpha-sig.figma.com/img/f7ff/f537/1cfe5c1bcc03b9b81c2d7b42f5828a59?Expires=1703462400&Signature=M62GHpN-1y6bLjDF2oUPRXBBe3xLMQG-Mq9qzg4UTit1TtpbPFuJctR7A0wvDybrb~kSh1FelpRvCHX6dJAgwlylxVUj6R7m~Hz76DsZ8YtCAtm06LHioSzvLVOIbQYhESJEJjUwtQXpkgcMTEbfdoNlalUSS4RGoMdR6uFYLrNv4v5aZ1ZjH6ZNWx7Y-dOSS-7ZePctQsYyWUmbra~PKSkBDALQWiDqkkqvLsQtkEFoxygXu21NoKrBHwlj4X1GBWwLMgDaNhQQAtVBAfQwHZWnfehr6gkhdlVvjvnMrEj7Xj2jWQTs5fLdSYr8iaL06sDrUVC-31ONgjBvVSs4-A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "state": "Troy, MI",
         "tags": [
             "clothes",
@@ -10,7 +10,7 @@
     },
     {
         "user": "Jesus Weiss",
-        "avatar": "./images/jesus.png",
+        "avatar": "https://s3-alpha-sig.figma.com/img/41ed/baf1/225faee70e15159236035178cca54a11?Expires=1703462400&Signature=eT63mfVuvm27tQEXaAw7y2RMo0587kwFmlo~FjI5D4X9e~KjKlFe6WK3gj9DHia6hTIYupzCKMHGdaUU86tmbX8gkLLajA8guP2kCBpxBiQjqhWqKfC-EffDdM59UiI9YWwXI-cUTMbn9ORfvmDDH3IK-rBjUpZf2RE29SX2B3QIx3bV5LETU6FQDbgnGmvRkbIzoiVPIKDJpVys3AkrGjlrZOSbKQVMEIQqK-WsOA-~sW5PB66gUNmY1TtCkSehuZPmNQT9f150AxlwVFdjyvHh~psZc6y2rJsj6kLIJ5hqZpiUCabycFm8n7UbfWFaAyu6l4meiiWTwT7TVy3fkw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "state": "Fort Worth, TX",
         "tags": [
             "headset",
@@ -21,7 +21,7 @@
     },
     {
         "user": "Annie Rice",
-        "avatar": "./images/annie.png",
+        "avatar": "https://s3-alpha-sig.figma.com/img/afd7/fd08/2942944e4e7e80e66c97c9b4491b1092?Expires=1703462400&Signature=k8g5RhW34xb1A7FtgzbsdXLVnl~JhW919HXmApX2l3HtSiR5uWtq4v8mYnQRW6hac8dFbY30FeE3vOjPJH9SHXaXnA6MhTA77OvzC3F3UOovYEx1ygareBwealsnaNlUnVCTqXiiZ~Ft2s-moKgJmBgyjj7hXpOJy7m3VDfluKVeJRP7vtmIkdEhhVml2OrrZ2B8ADQMxF56ocuGidt4aLZt-nStEniQkdWCHk~kPEHCOMDg0T4hXNlHtCuZSwbbx7Ey78zBfcDbGq3yTLJfW9L5GiuE6Z~Zpln5SpplD8uHRomsWuoGv3CECQy0RpPXg~4f77fuld9I~5BDujUeRQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "state": "Austin, TX",
         "tags": [
             "road",
@@ -33,7 +33,7 @@
     },
     {
         "user": "Robert Brower",
-        "avatar": "./images/rob.png",
+        "avatar": "https://s3-alpha-sig.figma.com/img/c81f/faee/d7f9f9b81bb8acfe93d3b739115d770e?Expires=1703462400&Signature=N2sECnqOc4DYC4uLC1ETA4ycOVnYG89KY9PpY35g6RWT2wYRkOdYh0IeHvBQmzaV1snwMd-3HnXiUwjPSagVvKVG7gMTEdYRmwJ3CUupc0fTtQLcjzWeXuk5oeKvvkFl0I7Gj3dyBD9qrROHxLkAIw94FRtV84JSbnJwmZ77mgtXu8hu2ojg19RGCa5Nr-hpr041sCma6VwMycCRnDV7CxGaz~od8T1I8to0jaZ1LoSHqqtt4S5qrY7J8vm5YgcqpPEgC1MYRJzd-NKk3NEVSseArt0AzzoJKowuAh8ij4FWmAuV3Dsns78VbyoUkUNknsQzRtC9GgrIo3IWOmxf7w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "state": "Cincinnati, OH",
         "tags": [
             "Maintenance",
@@ -44,7 +44,7 @@
     },
     {
         "user": "Amy Campbell",
-        "avatar": "./images/amy.png",
+        "avatar": "https://s3-alpha-sig.figma.com/img/11b3/77e8/6aa344879afba431d7cee9da5ee62cde?Expires=1703462400&Signature=fb96GdsbWCAxwLepRxHx0xzgUEpE~uJEsi5x6kJBGGYoke0OuuvSh3uZKgreKwotQ5P008ShXgS0bMcVE5EOVWDkRoO2S8908HxKXGMbp7wr2lZVrtSb-7zRIV4imBm4Cmfn7ZvMoyJFl7hPao8LKwcVJ652czjz0DCOj3PYA7sWzjnrbIn1xpJqnPh4BPhje6DkKz~JqQGhiF2dTvu9~lQ1OldC~0LiSbhWF5NXDA6pYYnh3jQ~c8inYkg3nKaywD7rkZEkf-RH2-aDptxsu8GjAoou5~kqDyUY6VxRnOEufhYvOgDwmAKxSAJ5R5eYqnCBvPm-GD8XSGUjZNnA1Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "state": "Warrior, AL",
         "tags": [
             "music",
@@ -53,7 +53,7 @@
     },
     {
         "user": "Anthony S. Morin",
-        "avatar": "./images/ant.png",
+        "avatar": "https://s3-alpha-sig.figma.com/img/0507/db32/e190425c8e91ed35ab3894e77679cedd?Expires=1703462400&Signature=gPH-5QYvdnJxcLaoKYTUyb7lJvO88ETUkz8QUgJv85IFaJmdoqJtLBMVOkJVjZGtODRY1W0F4JeUsydaBfj-Lo5Lm-zs7K-cgpbb2wynGaYee-4IxqNVqtcHYpXJE~PTdotuHrbFlJJ6NanahSIF74Da0HKE2gkOLoKdoWiRmi14FJD6ILL9Cook4CRYt8aN6q4rKrD5Le0pUPobjUPPFiiG4xX2oJhqXBwvaefU1K2bJdOLiz5L6cwfdUzqcxE9HpuphDNEN0F2pB1msSbB58yIXQrL7ZwXW5iWxXvi5CeAYKrlyb7nlv1LlG80btUaOG2DuowkoB2XT28ami~1oA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "state": "Lyndhurst, NJ",
         "tags": [
             "vintage",
