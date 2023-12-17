@@ -86,7 +86,6 @@
 .profile {
     display: flex;
     gap: 1rem;
-    align-items: center;
 }
 
 #pfp {
@@ -95,11 +94,21 @@
     border-radius: 50%;
     background-size: cover;
     background-position-y: 50%;
-    
+}
+
+.info {
+    width: 8.1875rem;
+}
+
+.name {
+    font-family: Merriweather;
+    font-size: 1.125rem;
+    padding-top: 1.25rem;
 }
 
 .state {
     font-size: 0.875rem;
+    padding-top: 0.25rem;
 }
 
 .ptags {
@@ -110,13 +119,12 @@
 }
 
 .ptags span {
-    display: flex;
     padding: 0.125rem 0.5rem;
-    border-radius: 0.625rem;
+    border-radius: 0.725rem;
     border: 1px solid #BFC8E5;
     background: #FFF;
     color: #516FD4;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
 }
 
 @media only screen and (max-width: 1060px) {
