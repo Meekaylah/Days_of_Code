@@ -11,8 +11,7 @@ fetch("./data.json")
                             <h3 class="name">${post.user}</h3>
                             <span class="state">${post.state}</span>
                             <div class="ptags">
-                                <span>clothes</span>
-                                <span>stem</span>
+                                ${post.tags.map(tag => `<span>${tag}</span>`).join("")}
                             </div>
                         </div>
                     </div>

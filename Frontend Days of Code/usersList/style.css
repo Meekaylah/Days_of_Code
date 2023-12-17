@@ -80,23 +80,43 @@
     border-radius: 1rem;
     background: #FBFCFF;
     height: 13rem;
+    padding: 1.5rem;
 }
 
 .profile {
     display: flex;
     gap: 1rem;
-    padding: 1.5rem;
     align-items: center;
 }
 
 #pfp {
-    /* background: url(./images/jesus.png); */
     width: 6.0625rem;
     height: 6.0625rem;
     border-radius: 50%;
     background-size: cover;
     background-position-y: 50%;
     
+}
+
+.state {
+    font-size: 0.875rem;
+}
+
+.ptags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 0.25rem;
+}
+
+.ptags span {
+    display: flex;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.625rem;
+    border: 1px solid #BFC8E5;
+    background: #FFF;
+    color: #516FD4;
+    font-size: 0.75rem;
 }
 
 @media only screen and (max-width: 1060px) {
