@@ -20,3 +20,18 @@ fetch("./data.json")
         })
     })
 )
+
+const tag = document.querySelector(".tag")
+// const tags = document.querySelectorAll(".tags span")
+
+function chooseFilter() {
+    if(tag.style.color === "white") {
+        tag.style.color = "#000000"
+        tag.style.backgroundColor = "white"
+        return
+    }
+    tag.style.backgroundColor = "#849FFF"
+    tag.style.color = "white"
+}
+
+tag.addEventListener("click", chooseFilter)

@@ -62,12 +62,13 @@
 .tags span {
     padding: 1rem;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
-#new {
+/* #new {
     background: #849FFF;
     color: #fff;
-}
+} */
 
 .list {
     display: flex;
