@@ -21,92 +21,26 @@ fetch("./data.json")
     })
 )
 
-// const tag = document.querySelector(".tag")
-const tag = document.getElementsByClassName("tag");
+const tags = document.querySelectorAll(".tag");
 
-
-
-
-for(let i = 0; i < tag.length; i++) {
-    let tagID = document.getElementById(tag[i].id);
-    // let color = window.getComputedStyle(tag[i]).getPropertyValue("background-color");
-    let color = tag[i].style.backgroundColor;
-    console.log(color);
-
-    function addStyle() {
-        console.log("this and");
-        tagID.setAttribute("style", "color:rgb(255, 255, 255); background-color: rgb(132, 159, 255)")
-        return
-    }
-
-    function removeStyle() {
-        console.log("that happened");
-        tagID.setAttribute("style", "color: rgb(0, 0, 0); background-color: rgb(255, 255, 255)")
-        return
-    }
-
-    // tag[i].addEventListener("click", () => {
-    //     if(color === "rgb(132, 159, 255)") {
-    //         console.log(color, "white");
-    //         removeStyle();
-    //     } else {
-    //         console.log(color, "lavender");
-    //         addStyle();
-    //     }
-    // })
-
-    tag[i].addEventListener("click", () => {
-    if(color === "rgb(132, 159, 255)") {
-        addStyle();
-    } else if(color === "rgb(255, 255, 255)") {
-        removeStyle();
-    }
-})
+function addStyle(tag) {
+    tag.style.color = 'rgb(255, 255, 255)';
+    tag.style.backgroundColor = 'rgb(132, 159, 255)';
 }
 
-// tag[i].addEventListener("click", () => {
-//     if(tag[i].style.backgroundColor === "rgb(132, 159, 255)") {
-//         addStyle();
-//     } else if(tag[i].style.backgroundColor === "rgb(255, 255, 255)") {
-//         removeStyle();
-//     }
-// })
+function removeStyle(tag) {
+    tag.style.color = 'rgb(0, 0, 0)';
+    tag.style.backgroundColor = 'rgb(255, 255, 255)';
+}
 
-// for(let i = 0; i < tag.length; i++) {
-//     let tagID = document.getElementById(tag[i].id);
-//     tag[i].addEventListener("click", () => {
-//         if(tagID.style.color = "white") {
-//             tagID.style.color = "#000000"
-//             tagID.style.backgroundColor = "#ffffff"
-//             console.log("this and");
-//         } else if(tagID.style.color = "#000000") {
-//             console.log("that happened");
-//             tagID.style.backgroundColor = "#849FFF"
-//             tagID.style.color = "#ffffff"
-//         }
-        
-        
-//     })
-// }
+tags.forEach(tag => {
+    tag.addEventListener("click", () => {
+        const color = window.getComputedStyle(tag).getPropertyValue("background-color");
 
-
-// console.log(tag[0].id);
-// function removeFilter() {
-//     if(tag.style.color === "#000000") {
-//         tag.style.color = "white"
-//         tag.style.backgroundColor = "#849FFF"
-//     }
-//     tag.style.backgroundColor = "white"
-//     tag.style.color = "#000000"
-// }
-
-// function chooseFilter() {
-//     if(tag.style.color === "white") {
-//         tag.style.color = "#000000"
-//         tag.style.backgroundColor = "white"
-//     }
-//     tag.style.backgroundColor = "#849FFF"
-//     tag.style.color = "white"
-// }
-
-// tag.addEventListener("click", chooseFilter)
+        if (color === "rgb(132, 159, 255)") {
+            removeStyle(tag);
+        } else {
+            addStyle(tag);
+        }
+    });
+});
