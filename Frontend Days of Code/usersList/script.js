@@ -25,29 +25,22 @@ const tags = document.querySelectorAll(".tag");
 let selected = null;
 
 function addStyle(tag) {
-    tag.style.color = 'rgb(255, 255, 255)';
-    tag.style.backgroundColor = 'rgb(132, 159, 255)';
+    tag.classList.add("selected");
     selected = tag;
 }
 
 function removeStyle(tag) {
-    tag.style.color = 'rgb(0, 0, 0)';
-    tag.style.backgroundColor = 'rgb(255, 255, 255)';
+    tag.classList.remove("selected");
     selected = null;
 }
 
 tags.forEach(tag => {
     tag.addEventListener("click", () => {
-        const color = window.getComputedStyle(tag).getPropertyValue("background-color");
-        
-        if(color === "rgb(132, 159, 255)") {
+        if(tag.classList.contains("selected")) {
             removeStyle(tag);
         } else if (selected!==null) {
-            const selectedColor = window.getComputedStyle(selected).getPropertyValue("background-color");
-            if (selectedColor === "rgb(132, 159, 255)") {
-                removeStyle(selected);
-                addStyle(tag);
-            }
+            removeStyle(selected);
+            addStyle(tag);
         } else {
             addStyle(tag);
         }
