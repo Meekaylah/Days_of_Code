@@ -59,10 +59,15 @@
     outline: none;
 }
 
-.tags span {
+.tags .tag {
     padding: 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+.selcted {
+    background-color: #849fff;
+    color: #FFFFFF;
 }
 
 .list {
